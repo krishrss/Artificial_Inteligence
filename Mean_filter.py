@@ -3,7 +3,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 
 # Open the image
-img = np.array(Image.open('/home/nikky/Downloads/TPancard.jpg')).astype(np.uint8)
+img = np.array(Image.open('/home/nikky/Downloads/800px-Crew_of_STS-107,_official_photo.jpg')).astype(np.uint8)
 
 #Now get the height, width and channel of image
 h, w, d = img.shape
