@@ -2,7 +2,7 @@ import numpy as np
 from PIL import Image
 import matplotlib.pyplot as plt
 
-img = np.array(Image.open("/home/nikky/Downloads/TPancard.jpg"))
+img = np.array(Image.open("/home/nikky/Downloads/50TPancard.jpg"))
 
 h, w, d = img.shape
 
